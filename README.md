@@ -4,11 +4,11 @@ R package with processed example of TMT dataset. The example is based on MoTrPAC
 pilot data. Proteomics and phosphoproteomics of exercised vs sedentary rat muscle.
 
 ```{r}
-remotes::install_github("vladpetyuk/PlexedPiperTestData")
+remotes::install_github("PNNL-Comp-Mass-Spec/PlexedPiperTestData")
 library(PlexedPiperTestData)
 ?motrpac_pilot_processed_datasets
 ```
-Companion package for [PlexedPiper](https://github.com/vladpetyuk/PlexedPiper)
+Companion package for [PlexedPiper](https://github.com/PNNL-Comp-Mass-Spec/PlexedPiper)
 
 Original Location
 ====
