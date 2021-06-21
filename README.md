@@ -1,3 +1,7 @@
+**The package has been moved to [PNNL-Comp-Mass-Spec](https://github.com/PNNL-Comp-Mass-Spec) org account as [PlexedPiperTestData](https://github.com/PNNL-Comp-Mass-Spec/PlexedPiperTestData). This repository may or may not be maintained.**
+====
+
+
 # PlexedPiperTestData
 
 R package with processed example of TMT dataset. The example is based on MoTrPAC
