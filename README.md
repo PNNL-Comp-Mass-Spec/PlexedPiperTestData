@@ -1,3 +1,7 @@
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/PNNL-Comp-Mass-Spec/PlexedPiperTestData/workflows/R-CMD-check/badge.svg)](https://github.com/PNNL-Comp-Mass-Spec/PlexedPiperTestData/actions)
+  <!-- badges: end -->
+
 # PlexedPiperTestData
 
 R package with processed example of TMT dataset. The example is based on MoTrPAC
