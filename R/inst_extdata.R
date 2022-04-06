@@ -1,3 +1,18 @@
+#' @importFrom Biostrings AA_STANDARD readAAStringSet readAAStringSet width
+#' @importFrom data.table data.table setkey setkeyv melt dcast rbindlist .SD :=
+#' @importFrom dplyr bind_cols inner_join bind_rows %>% case_when contains distinct filter group_by inner_join left_join mutate n rename select starts_with summarise ungroup
+#' @importFrom IRanges IRanges IRangesList reduce
+#' @importFrom MSnbase MSnSet pData sampleNames `pData<-`
+#' @importFrom MSnID apply_filter assess_missed_cleavages convert_msgf_output_to_msnid fetch_conversion_table MSnID MSnIDFilter optimize_filter remap_fasta_entry_names psms
+#' @importFrom plyr llply
+#' @importFrom purrr map_chr
+#' @importFrom readr read_tsv
+#' @importFrom stringr str_replace_all
+#' @importFrom tibble rownames_to_column
+#' @importFrom tidyr gather spread
+#' @importFrom utils read.delim
+#' @importMethodsFrom MSnID $<- accessions psms<-
+
 #' @title MASIC and MS-GF+ processed data from MoTrPAC pilot project
 #'
 #' @description This is an example data for running TMT processing pipeline.

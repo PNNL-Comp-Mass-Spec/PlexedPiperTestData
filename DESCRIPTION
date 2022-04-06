@@ -10,4 +10,31 @@ Description: Example of MASIC and MS-GF+ ouput based on MoTrPAC pilot study.
 License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.2
+Depends:
+    MSnID (>= 1.18.1)
+Imports:
+   Biostrings,
+   data.table,
+   plyr,
+   dplyr,
+   IRanges,
+   MSnbase,
+   PlexedPiper,
+   purrr,
+   stringr,
+   tibble,
+   tidyr,
+   readr,
+   utils
+Suggests:
+    BiocStyle,
+    Rcpp,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Remotes:
+   github::PNNL-Comp-Mass-Spec/MSnID@pnnl-master,
+   github::PNNL-Comp-Mass-Spec/PlexedPiperTestData
+VignetteBuilder: knitr
+Config/testthat/edition: 3
